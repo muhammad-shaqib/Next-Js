@@ -1,0 +1,134 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+#parent-home{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: lift;
+  align-content: center; 
+  background-image: url("/homeimg.jpg");
+  background-size: cover;
+}
+.home{
+  color: rgba(240, 233, 233, 0.7);
+  height: 10vh;
+  width: 30vw;
+  text-align: lift;
+  line-height: 40px;
+  display: inline-block;
+  font-size: large;
+  
+
+}
+/* .home:hover{
+  background-color: rgba(214, 192, 179, 0.45);
+  color: rgba(240, 233, 233, 1);
+
+} */
+
+#Explore{
+  color:rgb(222, 197, 197);
+  text-decoration: none;
+  border: 2px solid rgb(176, 151, 151);
+}
+
+#Explore:hover {
+  background-color: #d13939;
+  color: white;
+}
+
+
+.countrypage {
+  background-color: white;
+}
+
+
+#li{
+  line-height: 17px;
+  text-decoration: none;
+}
+
+.cName {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.cName1 {
+  height: 25vh;
+  width: 100vw;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.cName2 {
+  height: 25vh;
+  width: 100vw;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around; 
+}
+.cName3 {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center; 
+}
+
+.navbar {
+  background-color: #154c79;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ #liself1 {
+  height: 75%;
+  width: 5%;
+  text-decoration: none;
+  color: black; 
+  transition: color 0.3s ease 0; 
+  font-size: larger;
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+#liself2 {
+  height: 75%;
+  width: 10%;
+  text-decoration: none;
+  color: black; 
+  transition: color 0.3s ease 0; 
+  font-size: larger;
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+
+#liself1:hover {
+  color: rgb(255, 242, 0); /* Change to your desired hover color */
+}
+#liself2:hover {
+  color: rgb(255, 242, 0); /* Change to your desired hover color */
+}
