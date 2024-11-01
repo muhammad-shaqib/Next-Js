@@ -1,0 +1,264 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
+
+*{
+  padding: 0%;
+  margin: 0%;
+}
+/* ============> Header Section <================= */
+
+.header {
+background-color: #CFA6A61C;
+}
+
+.nav_list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: end;
+  height: 100px;
+  align-items: center;
+  margin-left: 70px;
+  margin-right: 70px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.link {
+padding-inline: 15px;
+}
+
+
+/* ============> Footer Section <================= */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  height: 245px;
+  justify-content: center;
+  gap: 15px;
+  background-color: #CFA6A61C;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.icon-p {
+  text-align: center ;
+}
+/* ===========> Hero Section <=========== */
+
+.hero-section{
+  background-color: #CFA6A61C;
+}
+
+.container {
+  min-width: 1030px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-section .main {
+  display: flex;
+  height: 400px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 70px;
+}
+
+.hero-section .text-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero-section .text-container .hero-name {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 61px;
+  color: #21243D;
+}
+
+.hero-section .text-container .hero-pera {
+  font-size: 16px;
+  font-weight: 400;
+  color: #21243D;
+}
+
+.hero-section .hero-btn {
+  background-color: #F98585;
+  padding: 10px 20px;
+  border: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26.66px;
+  width: fit-content;
+  cursor: pointer;
+}
+
+/* ===========> Recent Post Section <============ */
+
+
+.recent {
+  height: 500px;
+  background-color: var(--secoundry, #F4E2E2);
+}
+
+.recent .main1 {
+  padding: 0 70px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  line-height: 32.31px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.view {
+  color: #F98585;
+  font-size: 22px;
+  font-weight: 500;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.card-parent {
+  display: flex;
+  gap: 35px;
+}
+
+.hea h2 {
+  font-size: 26px;
+  line-height: 38px;
+  font-weight: 700;
+}
+
+.hea .date {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000B2;
+}
+
+.para {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.4px;
+  color: #21243D;
+}
+
+.hea {
+  background-color: #FFFFFF;
+  height: 280px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/* ==============> Feature Section <================ */
+
+.feature {
+  height: 950px;
+  background-color: #CFA6A61C;
+  padding-top: 50px;
+}
+
+.working {
+  padding: 0 70px;
+}
+
+.texting {
+  width: 650px;
+  height: 300px;
+}
+.texting h1 {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 44px;
+  margin-bottom: 10px;
+}
+.texting .button {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background-color: #F98585;
+  border-radius: 50px;
+  border: none;
+  width: 80px;
+  height: 27px;
+  display: inline-block;
+  margin-right: 20px;
+}
+.texting .para1{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgba(83, 79, 79, 0.62);
+  display: inline-block;
+}
+.texting p {
+  font-size: 18px;
+  font-weight: 50;
+  line-height: 26px;
+  margin-bottom: 20px;
+  color:#000000;
+}
+.child1 {
+  display: flex;
+  gap: 25px;
+  padding-top: 40px;
+}
+.head h3 {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32px;
+}
+.child2 {
+  display: flex;
+  gap: 25px;
+}
+.child3 {
+  display: flex;
+  gap: 25px;
+}
