@@ -56,7 +56,7 @@ export default function Home() {
           <h3>Featured works</h3>
         </div>
         <div className="child1">
-        <div className="pic1"><Image src="/first.png" alt="first-pic" height={180} width={246}></Image></div>
+        <div className="pic1"><Image src="/image1.png" alt="first-pic" height={180} width={246}></Image></div>
           <div className="texting">
           <h1>Designing Dashboards</h1>
           <button className="button">2020 </button><p className="para1">Dashboard</p>
@@ -65,7 +65,7 @@ export default function Home() {
         </div>
 
         <div className="child2">
-        <div className="pic1"><Image src="/second.png" alt="first-pic" height={180} width={246}></Image></div>
+        <div className="pic1"><Image src="/image2.png" alt="first-pic" height={180} width={246}></Image></div>
           <div className="texting">
           <h1>Designing Dashboards</h1>
           <button className="button">2020 </button><p className="para1">Dashboard</p>
@@ -74,7 +74,7 @@ export default function Home() {
         </div>
 
         <div className="child3">
-        <div className="pic1"><Image src="/third.png" alt="first-pic" height={180} width={246}></Image></div>
+        <div className="pic1"><Image src="/image3.png" alt="first-pic" height={180} width={246}></Image></div>
           <div className="texting">
           <h1>Designing Dashboards</h1>
           <button className="button">2020 </button><p className="para1">Dashboard</p>
